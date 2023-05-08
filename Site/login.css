@@ -2,14 +2,9 @@ body {
     margin: 0;
     padding: 0;
     max-width: 100%;
-    background-color: white;
 }
 
 header {
-    padding: 0 2% 0 2%;
-    height: 100vh;
-    background-image: url('Imagens/home_\ barbie.jpg');
-    background-size: cover;
     display: flex;
     justify-content: space-between;
 }
@@ -20,10 +15,9 @@ header a:hover {
 
 nav {
     width: 100%;
-    margin: 0 5% 0 0;
     display: flex;
     height: 100px;
-    background-color: transparent;
+    background-color: #dc4890;
     justify-content: space-between;
     /* backdrop-filter: blur(5px); */
 }
@@ -63,66 +57,65 @@ nav a {
 nav .logo img {
     width: 52%;
     margin-top: 20%;
-    
+
 }
 
-.container-sobre {
+.container-cadastro {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff97d9;
+    height: 546px;
+
+}
+
+.caixa-formulario {
+    display: flex;
+    background-color: #FFE3DC;
+    height: 500px;
+    width: 800px;
+    border-radius: 5%;
+}
+
+.caixa-formulario img {
+ width: 350px;
+border-radius: 5%;
+}
+
+.formulario {
+    display: flex;
+    margin-left: 80px;
+    flex-direction: column;
+    justify-content: center;
    
-    
-}
-.container-sobre img {
-    width: 12%;
-      
 }
 
-.texto1 {
-   margin: 1% 0 0 1%;
-   height: 90px;
-   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  
-}
-
-.texto1 h1 {
+.formulario h1{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #F30073;
 }
 
-.container2 {
-    display: flex;
-    width: auto;
-    background-color: #FFE3DC;
-}
-
-
-
-.texto2 h1 {
-    margin: 1% 0 0 1%;
-   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-   color: #F30073;
-}
-
-.texto2 h2 {
-    font-size: 20px;
-    margin: 2% 5% 0 1%;
+.formulario label {
+    margin-top: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-   
 }
 
-.container2 .img1 {
-    margin-top: 2%;
-    height: 250px;
-  margin-right: 30px;
-    width: 280px;
-   border-radius: 50%;
-   border: 5px solid #F30073 ;
+.formulario input {
+
+    padding: 5px;
+    text-align: center;
+    border: 2px solid #F30073;
+    border-radius: 5px;
 }
 
-.container2 .img2 {
-    margin-top: 2%;
-    height: 250px;
-  margin-right: 50px;
-    width: 280px;
-   border-radius: 50%;
-   border: 5px solid #F30073 ;
+.formulario button {
+    width: 100px;
+    height: 40px;
+    margin-top: 40px;
+    margin-left: 70px;
+    border-radius: 10px;
+    background-color: #F30073;
+    color: #FFF;
+    border-color: #F30073;
 }
-
