@@ -19,7 +19,7 @@ nav {
     height: 100px;
     background-color: #dc4890;
     justify-content: space-between;
-    /* backdrop-filter: blur(5px); */
+ 
 }
 
 nav a {
@@ -91,7 +91,7 @@ border-radius: 5%;
 }
 
 .formulario h1{
-    font-size: 20px;
+    font-size: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #F30073;
 }
@@ -102,18 +102,27 @@ border-radius: 5%;
 }
 
 .formulario input {
-
-    padding: 5px;
     text-align: center;
     border: 2px solid #F30073;
     border-radius: 5px;
 }
 
+.formulario .ipt_senha  {
+    padding: 5px 5px;
+    width: 160px;
+}
+
+.formulario .ipt_email  {
+    padding: 5px 5px;
+    width: 250px;
+}
+
+
 .formulario button {
     width: 100px;
     height: 40px;
     margin-top: 40px;
-    margin-left: 70px;
+    margin-left: 90px;
     border-radius: 10px;
     background-color: #F30073;
     color: #FFF;
