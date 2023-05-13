@@ -2,9 +2,12 @@ body {
     margin: 0;
     padding: 0;
     max-width: 100%;
+
 }
 
 header {
+    height: 15vh;
+    background-color: #F30073;
     display: flex;
     justify-content: space-between;
 }
@@ -15,11 +18,12 @@ header a:hover {
 
 nav {
     width: 100%;
+    margin: 0 5% 0 0;
     display: flex;
     height: 100px;
-    background-color: #F30073;
+    background-color: transparent;
     justify-content: space-between;
-    
+
 }
 
 nav a {
@@ -30,22 +34,26 @@ nav a {
 }
 
 .navbar1 {
-    width: 40%;
+    width: 50%;
     display: flex;
     align-items: center;
     justify-content: space-around;
     list-style: none;
-
-
 }
 
 .navbar2 {
-    width: 40%;
+    width: 50%;
     display: flex;
     align-items: center;
     justify-content: space-around;
     list-style: none;
+}
 
+.navbar2 a {
+    color: #F30073;
+    border-radius: 10px;
+    border: 10px solid #FFF;
+    background-color: #FFF;
 }
 
 .logo {
@@ -55,42 +63,42 @@ nav a {
 }
 
 nav .logo img {
-    width: 52%;
-    margin-top: 20%;
-
+    width: 70%;
 }
+
 
 .container-cadastro {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ff97d9;
     height: 546px;
 
 }
 
 .caixa-formulario {
     display: flex;
-    background-color: #FFE3DC;
+   background-color:#FFF;
     padding: 30px;
     width: 700px;
-    border-radius: 5%;
-    
+    border-radius: 2%;
+  background-color: #fda9d1;
+
 }
 
 .caixa-formulario img {
- width: 350px;
-    border-radius: 5%;
+    width: 350px;
+    border-radius: 2%;
+
 }
 
 .formulario {
     display: flex;
     margin-left: 100px;
     flex-direction: column;
-   
+
 }
 
-.formulario h1{
+.formulario h1 {
     font-size: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #F30073;
@@ -99,21 +107,21 @@ nav .logo img {
 .formulario label {
     margin-top: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
+
 }
 
 .formulario input {
-     border: #F30073;
-     /* outline: none; */
+    border: #F30073;
+    /* outline: none; */
     padding: 5px 10px;
-       
+
 }
 
-.formulario .ipt_senha  {
+.formulario .ipt_senha {
     display: flex;
     padding: 5px 5px;
     width: 160px;
-   justify-content: center;
+    justify-content: center;
 }
 
 .formulario .ipt_ConfirmacaoSenha {
