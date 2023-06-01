@@ -11,6 +11,3 @@ senha VARCHAR(16) NOT NULL
 );
 
 SELECT * FROM usuario;
-
-
-truncate table usuario;
